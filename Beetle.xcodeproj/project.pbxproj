@@ -15,6 +15,9 @@
 		BB455669204B76E2006262D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB455667204B76E2006262D0 /* Main.storyboard */; };
 		BB45566B204B76E2006262D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB45566A204B76E2006262D0 /* Assets.xcassets */; };
 		BB45566E204B76E2006262D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB45566C204B76E2006262D0 /* LaunchScreen.storyboard */; };
+		BB455676204B779E006262D0 /* CoinSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB455675204B779E006262D0 /* CoinSound.mp3 */; };
+		BB455678204B77B3006262D0 /* player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BB455677204B77B3006262D0 /* player.atlas */; };
+		BB45567A204B7925006262D0 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB455679204B7925006262D0 /* GameElements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		BB45566A204B76E2006262D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB45566D204B76E2006262D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB45566F204B76E2006262D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB455675204B779E006262D0 /* CoinSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CoinSound.mp3; sourceTree = "<group>"; };
+		BB455677204B77B3006262D0 /* player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = player.atlas; sourceTree = "<group>"; };
+		BB455679204B7925006262D0 /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +66,14 @@
 		BB45565C204B76E2006262D0 /* Beetle */ = {
 			isa = PBXGroup;
 			children = (
+				BB455677204B77B3006262D0 /* player.atlas */,
+				BB455675204B779E006262D0 /* CoinSound.mp3 */,
 				BB45565D204B76E2006262D0 /* AppDelegate.swift */,
 				BB45565F204B76E2006262D0 /* GameScene.sks */,
 				BB455661204B76E2006262D0 /* Actions.sks */,
 				BB455663204B76E2006262D0 /* GameScene.swift */,
 				BB455665204B76E2006262D0 /* GameViewController.swift */,
+				BB455679204B7925006262D0 /* GameElements.swift */,
 				BB455667204B76E2006262D0 /* Main.storyboard */,
 				BB45566A204B76E2006262D0 /* Assets.xcassets */,
 				BB45566C204B76E2006262D0 /* LaunchScreen.storyboard */,
@@ -133,8 +142,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB455669204B76E2006262D0 /* Main.storyboard in Resources */,
+				BB455676204B779E006262D0 /* CoinSound.mp3 in Resources */,
 				BB455660204B76E2006262D0 /* GameScene.sks in Resources */,
 				BB45566B204B76E2006262D0 /* Assets.xcassets in Resources */,
+				BB455678204B77B3006262D0 /* player.atlas in Resources */,
 				BB45566E204B76E2006262D0 /* LaunchScreen.storyboard in Resources */,
 				BB455662204B76E2006262D0 /* Actions.sks in Resources */,
 			);
@@ -147,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB45567A204B7925006262D0 /* GameElements.swift in Sources */,
 				BB455664204B76E2006262D0 /* GameScene.swift in Sources */,
 				BB455666204B76E2006262D0 /* GameViewController.swift in Sources */,
 				BB45565E204B76E2006262D0 /* AppDelegate.swift in Sources */,

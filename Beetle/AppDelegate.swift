@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Beetle
+//  Flappy Beetle
 //
 //  Created by Ataberk Dinç on 4.03.2018.
 //  Copyright © 2018 Ata Games. All rights reserved.
